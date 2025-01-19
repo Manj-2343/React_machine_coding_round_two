@@ -20,7 +20,7 @@ const BasicProgressBar = () => {
       setProgress((prevProgress) =>
         prevProgress >= 100 ? 0 : prevProgress + 10
       );
-    }, 1000);
+    }, 2000);
 
     return () => clearInterval(timer);
   }, []);

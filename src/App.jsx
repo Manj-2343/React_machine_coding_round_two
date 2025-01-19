@@ -26,7 +26,7 @@ const App = () => {
       {/* <ToDoWithRedux /> */}
       {/* <DragAndDrop /> */}
       {/* <AdvancedDragAndDrop /> */}
-      {/* <BasicProgressBar /> */}
+      <BasicProgressBar />
     </div>
   );
 };
