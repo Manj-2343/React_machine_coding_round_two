@@ -10,6 +10,7 @@ import { TodoProvider } from "./Component/todoApp/totdoAppWithContextApi/context
 import ToDoWithRedux from "./Component/todoApp/todoAppWithReduxToolkit/todoWithRedux/ToDoWithRedux";
 import DragAndDrop from "./Component/drag-drop-functionality/DragAndDrop";
 import AdvancedDragAndDrop from "./Component/drag-drop-functionality/AdvancedDragAndDrop";
+import BasicProgressBar from "./Component/progressBar/ProgressBar";
 
 const App = () => {
   return (
@@ -23,8 +24,9 @@ const App = () => {
         <ToDoWithContext />
       </TodoProvider> */}
       {/* <ToDoWithRedux /> */}
-      <DragAndDrop />
+      {/* <DragAndDrop /> */}
       {/* <AdvancedDragAndDrop /> */}
+      {/* <BasicProgressBar /> */}
     </div>
   );
 };
