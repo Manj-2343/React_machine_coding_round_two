@@ -8,6 +8,8 @@ import TodoWithUseState from "./Component/todoApp/todoAppwithUseState/TodoWithUs
 import ToDoWithContext from "./Component/todoApp/totdoAppWithContextApi/todoWithContext/ToDoWithContext";
 import { TodoProvider } from "./Component/todoApp/totdoAppWithContextApi/context/ToDoContext";
 import ToDoWithRedux from "./Component/todoApp/todoAppWithReduxToolkit/todoWithRedux/ToDoWithRedux";
+import DragAndDrop from "./Component/drag-drop-functionality/DragAndDrop";
+import AdvancedDragAndDrop from "./Component/drag-drop-functionality/AdvancedDragAndDrop";
 
 const App = () => {
   return (
@@ -20,7 +22,9 @@ const App = () => {
       {/* <TodoProvider>
         <ToDoWithContext />
       </TodoProvider> */}
-      <ToDoWithRedux />
+      {/* <ToDoWithRedux /> */}
+      <DragAndDrop />
+      {/* <AdvancedDragAndDrop /> */}
     </div>
   );
 };
