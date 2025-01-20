@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "iPhone 13",
+      "price": 1049,
+      "description": "Latest iPhone model",
+      "category": "electronics"
+    },
+    {
+      "id": "2",
+      "title": "Samsung Galaxy",
+      "price": 1019,
+      "description": "Android flagship phone",
+      "category": "electronics"
+    },
+    {
+      "id": "bdff",
+      "title": "manoj",
+      "price": 1280,
+      "description": "this i sgood product",
+      "category": "pizza"
+    }
+  ]
+}
